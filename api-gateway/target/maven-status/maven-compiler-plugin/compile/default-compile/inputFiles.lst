@@ -1,0 +1,6 @@
+C:\Users\pedro\OneDrive\Documentos\Programação\erudio-curso\MicroservicesWithFeignAndEurekaResilience4JSwagger\api-gateway\src\main\java\br\com\pedro\config\ApiGatewayConfiguration.java
+C:\Users\pedro\OneDrive\Documentos\Programação\erudio-curso\MicroservicesWithFeignAndEurekaResilience4JSwagger\api-gateway\src\main\java\br\com\pedro\config\CorsConfig.java
+C:\Users\pedro\OneDrive\Documentos\Programação\erudio-curso\MicroservicesWithFeignAndEurekaResilience4JSwagger\api-gateway\src\main\java\br\com\pedro\config\OpenApiConfiguration.java
+C:\Users\pedro\OneDrive\Documentos\Programação\erudio-curso\MicroservicesWithFeignAndEurekaResilience4JSwagger\api-gateway\src\main\java\br\com\pedro\config\ZipkinCustomSenderConfig.java
+C:\Users\pedro\OneDrive\Documentos\Programação\erudio-curso\MicroservicesWithFeignAndEurekaResilience4JSwagger\api-gateway\src\main\java\br\com\pedro\filter\LoggingFilter.java
+C:\Users\pedro\OneDrive\Documentos\Programação\erudio-curso\MicroservicesWithFeignAndEurekaResilience4JSwagger\api-gateway\src\main\java\br\com\pedro\Startup.java

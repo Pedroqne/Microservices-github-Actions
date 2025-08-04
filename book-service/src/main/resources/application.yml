@@ -1,0 +1,42 @@
+
+server:
+  port: 8100
+eureka:
+  client:
+    service-url:
+      defaultZone: ${EUREKA_CLIENT_SERVICE-URL_DEFAULTZONE:http://localhost:8761/eureka/}
+resilience4j:
+  retry:
+    instances:
+      foo-bar:
+        max-attempts: 7
+        wait-duration: 1s
+        enable-exponential-backoff: true
+spring:
+  application:
+    name: book-service
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/book_service
+    username: admin
+    password: 123
+  management:
+    tracing:
+      sampling:
+        probability: 1.0
+  zipkin:
+    base-url: ${SPRING_ZIPKIN_BASEURL:http://localhost:9411}
+  jpa:
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+    show-sql: false
+    open-in-view: false
+springdoc:
+  api-docs:
+    path: /book-service/v3/api-docs
+  swagger-ui:
+    url: /book-service/v3/api-docs
+  override-server-url: true
+

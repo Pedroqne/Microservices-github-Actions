@@ -1,0 +1,5 @@
+br\com\pedro\config\OpenApiConfiguration.class
+br\com\pedro\filter\LoggingFilter.class
+br\com\pedro\config\ZipkinCustomSenderConfig.class
+br\com\pedro\config\CorsConfig.class
+br\com\pedro\Startup.class

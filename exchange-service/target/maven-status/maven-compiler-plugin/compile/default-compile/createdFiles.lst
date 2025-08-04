@@ -1,0 +1,8 @@
+br\com\pedro\config\OpenApiConfiguration.class
+br\com\pedro\controller\ExchangeController.class
+br\com\pedro\config\ZipkinCustomSenderConfig.class
+br\com\pedro\models\Exchange.class
+br\com\pedro\repository\ExchangeRepository.class
+br\com\pedro\Startup.class
+br\com\pedro\config\WebConfig.class
+br\com\pedro\environment\InstanceInformationService.class
